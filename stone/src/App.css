@@ -1,0 +1,147 @@
+:root {
+  --primary: #c0880f;
+  --primary-dark: #002171;
+  --primary-light: #6b6c6e;
+  --primary-text: #e3e6df;
+}
+
+html {
+  background-color: var(--primary);
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+  padding: 8px;
+}
+
+h2 {
+  font-size: 18px;
+  color: var(--primary-text);
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.player {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-text);
+  color: var(--primary-text);
+}
+
+.score {
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  background-color: var(--primary-dark);
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--primary);
+}
+
+.round-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  background-color: var(--primary-dark);
+  color: var(--primary-text);
+}
+
+.round-btn:hover {
+  background-color: var(--primary-light);
+}
+.heading{ 
+  text-align: center;
+}
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputbox input {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: #c0880f;
+}
+
+.inputbox button {
+  padding: 10px 20px;
+  background-color: #002171;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputbox button:hover {
+  background-color: #6b6c6e;
+}
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choices h2 {
+  margin-bottom: 10px;
+  
+}
+
+.choices button {
+  margin:10px;
+  padding: 8px 16px;
+  background-color: #002171;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 25px;
+}
+
+.choices button:hover {
+  background-color: #6b6c6e;
+}
+
+.rounds {
+  margin-top: 20px;
+}
+
+.round {
+  margin-bottom: 10px;
+}
+.choices .submit {
+  background-color: #6b6c6e;
+}
+.scoreboard {
+  text-align: center;
+  margin: 0 auto;
+}
